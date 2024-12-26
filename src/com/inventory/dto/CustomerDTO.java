@@ -6,10 +6,7 @@
 
 package com.inventory.dto;
 
-/**
- *
- * @author ADMIN
- */
+
 public class CustomerDTO {
     private int customersId;
     private String customerCode;

@@ -9,10 +9,7 @@ package com.inventory.dto;
 import com.inventory.dao.ProductDAO;
 import java.sql.ResultSet;
 
-/**
- *
- * @author ADMIN
- */
+
 public class ProductDTO {
     private int productId;
     private String productCode;

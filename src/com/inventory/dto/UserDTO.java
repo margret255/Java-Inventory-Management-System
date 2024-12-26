@@ -8,10 +8,7 @@ package com.inventory.dto;
 
 import java.io.File;
 
-/**
- *
- * @author ADMIN
- */
+
 public class UserDTO {
     private int id;
     private String fullName;

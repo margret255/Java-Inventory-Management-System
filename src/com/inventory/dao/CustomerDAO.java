@@ -18,10 +18,7 @@ import java.util.Vector;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author ADMIN
- */
+
 public class CustomerDAO {
     Connection con = null;
     PreparedStatement pstmt = null;

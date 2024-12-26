@@ -19,10 +19,7 @@ import java.util.Vector;
 import javax.swing.JOptionPane;
 import javax.swing.table.DefaultTableModel;
 
-/**
- *
- * @author ADMIN
- */
+
 public class ProductDAO {
     Connection con = null;
     PreparedStatement pstmt = null;
@@ -31,13 +28,7 @@ public class ProductDAO {
     Statement stmt1=null;
     ResultSet rs = null;
 
-    /***
-     * Refactoring name: EXTRACT CLASS
-     * Extract class refactoring is implemented to remove multiple responsibilities
-     * checkStock() was present in this class which is moved to a new class Stocks.java
-     * Here object of new class is created and method checkStock() of Stocks.java class is called with this object.
-     * This improves cohesiveness.
-     */
+
     Stocks stocks = null;
 
 

@@ -5,11 +5,6 @@
  */
 
 package com.inventory.dto;
-
-/**
- *
- * @author ADMIN
- */
 public class SupplierDTO {
     
     public int getSupplierId() {

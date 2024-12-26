@@ -3,13 +3,7 @@ package com.inventory.dao;
 import java.sql.ResultSet;
 import java.sql.Statement;
 
-/***
- * Refactoring name: EXTRACT CLASS
- * Extract class refactoring is implemented to remove multiple responsibilities
- * checkStock() was present in ProductDAO.java class which is moved to this new class Stocks.java
- * Here object of new class is created and method checkStock() of Stocks.java class is called with this object in ProductDAO.java class.
- * This improves cohesiveness.
- */
+
 public class Stocks {
     boolean flag=false;
     public boolean checkStock(String productcode, Statement stmt){

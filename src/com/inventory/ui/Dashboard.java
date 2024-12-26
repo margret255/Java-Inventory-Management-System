@@ -14,15 +14,10 @@ import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.border.BevelBorder;
 
-/**
- *
- * @author ADMIN
- */
+
 public class Dashboard extends javax.swing.JFrame {
 
-    /**
-     * Creates new form Dashboard
-     */
+
     CardLayout layout;
     String userSelect;
     String username;
@@ -57,11 +52,7 @@ public class Dashboard extends javax.swing.JFrame {
         layout.next(mainPanel);
         layout.next(mainPanel);
 
-        /*      theme=new ButtonGroup();
-        theme.add(hifiThemeMenuItem);
-        theme.add(graphiteThemeMenuItem);
-         */
-        //ImageIcon icon=new ImageIcon("userLarge.png");
+
         setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("ims-logo.png")));
         Toolkit theKit = getToolkit();
         Dimension dim = theKit.getScreenSize();
